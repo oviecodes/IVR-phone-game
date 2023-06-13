@@ -1,0 +1,19 @@
+{
+  "name": "tutorial_survey",
+  "version": "1.0.0",
+  "description": "A phone survey app using twilio programmable voice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app"
+  },
+  "author": "Alexander Godwin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^7.2.2",
+    "twilio": "^4.11.2"
+  }
+}
